@@ -121,7 +121,7 @@ class Chartisan
      * @param string $name
      * @return ServerData|null
      */
-    protected function getDataset(string $name): ?ServerData
+    protected function getDataset(string $name): ?DatasetData
     {
         foreach ($this->serverData->datasets as $dataset) {
             if ($dataset->name == $name) {
